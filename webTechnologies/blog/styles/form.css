@@ -1,0 +1,32 @@
+#form {
+	background-color: white;
+
+	margin-top: 15vh;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+label {
+	display: block;
+}
+
+label[for="male"], label[for="female"] {
+	display: inline-block;
+	font-size: 1rem;
+}
+
+form div {
+	margin: 15px;
+}
+
+form label {
+	font-size: 12px;
+}
+
+form input {
+	padding: 5px;
+	border-color: ;
+	border-radius: 5px;
+}

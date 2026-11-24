@@ -1,0 +1,102 @@
+:root{
+	--bg: #0b0f19;
+	--card: #151c2c;
+	--text: #f3f4f6;
+	--accent: #ffb800; 
+}
+
+* { 
+	margin: 0;
+}
+
+body {
+	background-color: var(--bg);
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+	padding: 16px;
+
+	background-color: var(--bg);
+}
+
+#title {
+	align-self: center;
+}
+
+p {
+	color: var(--text);
+}
+
+#logo {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bolder;
+}
+
+nav ul li {
+	color: var(--text);
+	display: inline-block;
+	margin: 0 16px;
+}
+
+video {
+	width: 100vw;
+	height: 70vh;
+
+	object-fit: cover;
+	object-position: center;
+}
+
+h2 {
+	margin: 25px 0 0 25px;
+	color: var(--text);
+	font-size: 2.5rem;
+}
+
+#cards {
+	margin: 50px 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.movie_card {
+	border: 1px solid var(--accent);
+	border-radius: 10px;
+	background-color: var(--card);
+
+	padding: 0px 0px 10px 0px;
+	margin: 5px;
+
+	height: fit-content;
+
+	border-bottom: 20px;
+}
+
+.movie_card img {
+	width: 300px;
+	height: 150px;
+	margin-bottom: 5px;
+
+	border-radius: 10px 10px 0 0;
+
+	object-fit: cover;
+	object-position: center;
+}
+
+.title, .rating, .duration {
+	margin: 5px;
+}
+
+.title {
+	font-size: 1rem;
+}
+
+.rating, .duration {
+	font-size: 0.6rem;
+	display: inline-block;
+}

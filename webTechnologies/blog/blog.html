@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang =en>
+	<head>
+		<link rel="stylesheet" href="./styles/blog.css">
+		<title>How to host a website on the dark web</title>
+	</head>
+	<body>
+		<nav>
+			<div>
+				<img src="./blogPics/ananse-ntentan-medium.png" alt="Logo of the blog website"></img>
+			</div>
+
+			<div id=nav-middle>
+				<p>Blogging lives here</p>
+			</div>
+			<div id=nav-options>
+				<ul>
+					<li>Home</li>
+					<li>Contact</li>
+					<a href="./form.html"><li>Form</li></a>
+				</ul>
+			</div>
+		</nav>
+
+		<div id=hero>
+			<h1>How To Host A Website On The Dark Web</h1>
+		</div>
+
+		<div id=content>
+			<h2>Introduction</h2>
+			<p>The dark web forms art of the World Wide Web but requires specitic software and authorization to access content on the dark web.</p>
+
+			<p>The dark web is great for keeping identity private hence has become a go to tool for journalists, whishle blowers, etc. especially in regions where there is conflict or freedom of speech is suppressed</p>
+
+			<p>This blog is a step by step instruction on how to host a website on the dark web but is limited to Arch Linux. Other OS can be used to host a website on the darkweb but are not covered in this blog</p>
+
+			<h2>Setting up a web server</h2>
+			<p>In this tutorial we wold use nginx as our web server. Other webservers such as apache can be used but must be configured appropriately</p>
+
+			<ol>
+				<h3><li>Install and start nginx</li></h3>
+				<div class=codeblock>
+					<p>sudo pacman -S nginx</p>
+					<p>systemctl start --now nginx</p>
+				</div>
+
+				<h3><li>Test the webserver</li></h3>
+				<p>Nginx comes with a simple website. To test the web server (nginx), visit this webpage by visiting <code>localhost:80</code> in your browser. <br>If it fails, visit the ArchWiki or the nginx documentation (Really great guide). Or just outsource your thinking to AI</p>
+
+				<h3><li>Change website on port 80 to any of your choice</li></h3>
+				<p>You can use any port but we'll stick to port 80 since it is the default HTTP port</p>
+			</ol>
+
+			<h2>Another subtitle</h2>
+			<p>Even more text</p>
+
+			<span class="spacer conclusion"></span>
+			<p>Conclusion stuff goes in here</p>
+		</div>
+
+		<div id=footer>Footer goes here</div>
+	</body>
+</html>
